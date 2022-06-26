@@ -1,0 +1,59 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(136, 189, 136);
+    color: whitesmoke;
+    margin: 3em;
+}
+div, input {
+    border-radius: 5px;
+}
+#A {
+    text-align: center;
+    margin-bottom: 100px;
+}
+#greetings, #part_A, #part_B, #part_C, #part_D, #part_E, #part_a, #part_b, #part_c, #part_d, #part_e {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: grey;
+    padding: 14px;
+}
+p {
+    text-indent: 50px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+h3 {
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    color: white;
+    padding: 6px;
+    font-size: 20px;
+}
+#ending {
+    text-shadow: 2px 2px 5px green;
+    text-align: center;
+    font-size: 25px;
+}
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+input[type=text] {
+    padding: 8px 12px;
+    background-color: rgb(136, 189, 136);
+}
+input[type=text]:focus {
+    background-color: rgb(138, 146, 138);
+    border: 2px solid yellow;
+    color: aliceblue;
+}
+#button {
+    text-align: center;
+}
+.button1, .button2 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-align: center;
+    padding: 4px 8px;
+}
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
