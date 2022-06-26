@@ -2,7 +2,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(136, 189, 136);
     color: whitesmoke;
-    margin: 3em;
+    margin: 1em;
 }
 div, input {
     border-radius: 5px;
